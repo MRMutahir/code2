@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: linear-gradient( lightblue);
+    bagc */
+    background-color: aquamarine;
+}
+.listBox li{
+    list-style: none;
+    font-size: 20px;
+
+}
+.box{
+    margin:100px 300px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    width: 500px;
+    height: 500px;
+    padding: 100px;
+}
+button{
+    font-size: 20px;
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 20px;
+}
+input{
+    background-color: rgb(192, 184, 184);
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px 20px 0px 20px;
+}
+span button{
+    font-size: 10px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 40px;
+    
+}
+.listBox{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+/* a{
+    margin-right: 500px;
+} */
